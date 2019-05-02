@@ -27,5 +27,5 @@ if __name__ == '__main__':
 
     #bot.polling(none_stop=True)
 
-    app.run(debug=True, use_reloader=True)
+    app.run(host='0.0.0.0', port=33507)
 
