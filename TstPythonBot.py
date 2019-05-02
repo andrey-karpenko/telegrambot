@@ -25,7 +25,7 @@ if __name__ == '__main__':
     def send_echo(message):
         bot.send_message(message.chat.id, message.text)
 
-    bot.polling(none_stop=True)
+    #bot.polling(none_stop=True)
 
     app.run(debug=True, use_reloader=True)
 
